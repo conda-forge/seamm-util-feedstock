@@ -1,6 +1,6 @@
 {% set name = "seamm-util" %}
-{% set version = "2025.8.18" %}
-{% set sha256 = "ca69d159116963a5a25446f5fa87130064c7c96853fa9672b32cafc14e68f54c" %}
+{% set version = "2025.8.27" %}
+{% set sha256 = "8633dc73a0fc43f70d509ac9155ee2d65fd739678d7fd96619c6fcce3d87815a" %}
 
 
 package:
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
