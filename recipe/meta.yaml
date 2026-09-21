@@ -1,6 +1,6 @@
 {% set name = "seamm-util" %}
-{% set version = "2026.7.26" %}
-{% set sha256 = "23cbe985feb05432e89169f252cc7f115617f5b29666bb085848ef63afdc4360" %}
+{% set version = "2026.9.18" %}
+{% set sha256 = "a5f4704e22357d4500d48e1833f7afb829ef3196c2b757e9cc69a9f7beeaba5b" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/s/seamm-util/seamm_util-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/s/seamm-util/seamm_util-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
